@@ -1,3 +1,7 @@
+a:hover {
+    color: black;
+}
+
 header {
     text-align: center;
     background-size: cover;
@@ -12,30 +16,37 @@ body {
 }
 
 h1 {
-    font-size: 70px;
+    font-size: 80px;
+    font-family: 'Cairo', sans-serif;
+    margin-top: -20px;
 }
 
 p {
     font-size: 25px;
     color: lightcoral;
     font-family: 'Courgette', cursive;
+    margin-top: -50px;
 }
 
 
 .nav-bar {
     margin: 0 auto;
     text-align: center;
-    color: black;
 }
 
 li {
-    text-decoration: none;
     display: inline;
-    padding: 0px 10px 0px 10px;
+    padding: 10px 20px 10px 20px;
 }
 
-.link-list {
-    color: #000;
+a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: "DejaVu Sans Mono";
+    background: lightseagreen;
+    padding: 10px;
+    margin: 10px;
 }
 
 input {
