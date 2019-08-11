@@ -1,0 +1,62 @@
+header {
+    text-align: center;
+    background-size: cover;
+    color: lightcoral;
+    position: relative;
+}
+
+body {
+    background: url("image/fox and panda.png");
+    background-position: top;
+    background-size: cover;
+}
+
+h1 {
+    font-size: 70px;
+}
+
+p {
+    font-size: 25px;
+    color: lightcoral;
+    font-family: 'Courgette', cursive;
+}
+
+
+.nav-bar {
+    margin: 0 auto;
+    text-align: center;
+    color: black;
+}
+
+li {
+    text-decoration: none;
+    display: inline;
+    padding: 0px 10px 0px 10px;
+}
+
+.link-list {
+    color: #000;
+}
+
+input {
+    border:2px solid yellow;
+    padding: 10px;
+    font-size: 18px;
+    margin: 0 auto;
+}
+
+.input-submit {
+    color:grey;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/*@media (max-width: 500px) {*/
+/*    h1 {*/
+/*        font-size:36px;*/
+/*    }*/
+/*    li {*/
+/*        display: black;*/
+/*        padding: 5px;*/
+/*    }*/
+/*}*/
